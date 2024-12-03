@@ -1,0 +1,22 @@
+# Target directory (build artifacts)
+/target/
+
+# Rust dependency directory
+/Cargo.lock
+
+# Compiler output (this includes executables or any other generated files)
+/*.rs.bk
+
+# Editor-specific files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~

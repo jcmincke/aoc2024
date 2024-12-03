@@ -28,6 +28,10 @@ library
       Lib
       P01.Main01
       P01.Main02
+      P02.Main01
+      P02.Main02
+      P03.Main01
+      P03.Main02
   other-modules:
       Paths_aoc
   autogen-modules:
@@ -37,6 +41,7 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , parsec
     , regex-posix
   default-language: Haskell2010
 
