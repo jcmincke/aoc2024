@@ -38,6 +38,10 @@ library:
   dependencies:
   - regex-posix
   - parsec
+  - array
+  - containers
+  - unordered-containers
+  - hashable
 
 
 executables:

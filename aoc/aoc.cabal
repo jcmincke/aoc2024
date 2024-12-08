@@ -32,6 +32,13 @@ library
       P02.Main02
       P03.Main01
       P03.Main02
+      P03.MainTest
+      P04.Main01
+      P04.Main02
+      P05.Main01
+      P05.Main02
+      P06.Main01
+      P06.Main02
   other-modules:
       Paths_aoc
   autogen-modules:
@@ -40,9 +47,13 @@ library
       src
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
-      base >=4.7 && <5
+      array
+    , base >=4.7 && <5
+    , containers
+    , hashable
     , parsec
     , regex-posix
+    , unordered-containers
   default-language: Haskell2010
 
 executable aoc-exe
