@@ -39,6 +39,10 @@ library
       P05.Main02
       P06.Main01
       P06.Main02
+      P07.Main01
+      P07.Main02
+      P08.Main01
+      P08.Main02
   other-modules:
       Paths_aoc
   autogen-modules:

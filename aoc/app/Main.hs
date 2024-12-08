@@ -1,7 +1,7 @@
 module Main (main) where
 
 
-import qualified P06.Main02 as A
+import qualified P08.Main01 as A
 
 main :: IO ()
 main = do
